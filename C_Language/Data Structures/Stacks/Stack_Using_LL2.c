@@ -67,6 +67,14 @@ void Traversal(struct student *T)
     }
 }
 
+/*linking in reverse order
+Insert:               1 <-- 2 <-- 3 <-- 4 <-- 5
+delete Top of stack : 1 <-- 2 <-- 3 <-- 4
+delete Top of stack : 1 <-- 2 <-- 3
+delete Top of stack : 1 <-- 2
+delete Top of stack : 1 
+delete Top of stack : "Stack is empty"
+*/
 void push(struct student **Head)
 {
     struct student *new=NULL,*Tail=NULL;
