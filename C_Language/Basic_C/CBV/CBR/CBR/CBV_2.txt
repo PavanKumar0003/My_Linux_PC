@@ -1,0 +1,11 @@
+1. call by value:
+
+In call by value, a copy of the value of the actual parameter is passed to the formal parameter of the function. 
+This means that any changes made to the formal parameter inside the function will not affect the value of the
+actual parameter outside the function.
+
+2. Call by Reference:
+
+In call by reference, the address of the actual parameter is passed to the formal parameter of the function.
+This means that any changes made to the formal parameter inside the function will also affect the value of the
+actual parameter outside the function.

@@ -1,0 +1,30 @@
+Calculate the salary of an employee for a given month and year.
+
+His total monthly salary, and number of days of Loss of Pay (LOP) is provided as input.
+Loss of Pay means the number of days for which he wont get salary in that month.
+Validate the negative cases like –ve salary value entered, -ve date or –ve year in main function, before calling other functions.
+Print the net salary in main function.
+
+Note:(Program must compile with 0 warnings compile with –Wall option)
+
+Functions: Implement the below functions along with main:
+
+FileName: main.c
+1)  main function. // takes input, calls calculatenetsalary function.
+
+FileName: daysinmonth.c
+2)int  NoOfDaysinMonth(int  m, int  y); // returns the number of days in a month
+3)int  IsLeapYear(int   y); // checks if a year is leap year or not    
+
+FileName: calsal.c
+3)int  CalculateNetSalary(int  total, int  lop, int  m, int  y); // calculates and returns the net salary for a given month & year  , uses  noofdaysinmonth to calculate the one day salary.
+
+Example:  Input:
+Total salary of the employee: 10000
+Month: 1 , Year: 2001
+Number of LOPs: 3 (LOP: Days for which he will not get salary)
+
+Hint: net salary : Total salary – Number of LOPS * Total salary / no of days in the given month
+i.e., net salary : 10000 - 3 * 10000 / 31 (January has 31 days)
+
+Output: Net payable salary is: 9032 /-
