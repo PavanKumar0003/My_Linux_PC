@@ -1,0 +1,34 @@
+[0.096s] Invoking command in '/home/pavan/MY_ROS_WS/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pavan/MY_ROS_WS/build/my_cpp_pkg -- -j8 -l8
+[0.199s] [ 25%] [32mBuilding CXX object CMakeFiles/number_publisher.dir/src/Activity_0001/Act_Pub.cpp.o[0m
+[0.210s] [ 50%] [32mBuilding CXX object CMakeFiles/number_counter.dir/src/Activity_0001/Act_Sub.cpp.o[0m
+[3.548s] [01m[K/home/pavan/MY_ROS_WS/src/my_cpp_pkg/src/Activity_0001/Act_Sub.cpp:[m[K In member function ‘[01m[Kvoid Sub_node::Sub_Callback(example_interfaces::msg::Int64_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.548s] [01m[K/home/pavan/MY_ROS_WS/src/my_cpp_pkg/src/Activity_0001/Act_Sub.cpp:18:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.548s]    18 |         void Sub_Callback([01;35m[Kexample_interfaces::msg::Int64::SharedPtr msg[m[K)
+[3.548s]       |                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[6.418s] [ 75%] [32m[1mLinking CXX executable number_publisher[0m
+[7.577s] [ 75%] Built target number_publisher
+[10.988s] [100%] [32m[1mLinking CXX executable number_counter[0m
+[11.523s] [100%] Built target number_counter
+[11.535s] Invoked command in '/home/pavan/MY_ROS_WS/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pavan/MY_ROS_WS/build/my_cpp_pkg -- -j8 -l8
+[11.554s] Invoking command in '/home/pavan/MY_ROS_WS/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pavan/MY_ROS_WS/build/my_cpp_pkg
+[11.565s] -- Install configuration: ""
+[11.566s] -- Installing: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/lib/my_cpp_pkg/number_publisher
+[11.566s] -- Set runtime path of "/home/pavan/MY_ROS_WS/install/my_cpp_pkg/lib/my_cpp_pkg/number_publisher" to ""
+[11.566s] -- Installing: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter
+[11.570s] -- Set runtime path of "/home/pavan/MY_ROS_WS/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter" to ""
+[11.570s] -- Installing: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[11.570s] -- Installing: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[11.570s] -- Installing: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[11.583s] -- Installing: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[11.584s] -- Installing: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[11.584s] -- Installing: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[11.584s] -- Installing: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[11.584s] -- Installing: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[11.584s] -- Installing: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[11.585s] -- Installing: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[11.585s] -- Installing: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[11.585s] -- Installing: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[11.585s] -- Installing: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[11.585s] -- Installing: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[11.586s] -- Installing: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[11.588s] Invoked command in '/home/pavan/MY_ROS_WS/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pavan/MY_ROS_WS/build/my_cpp_pkg

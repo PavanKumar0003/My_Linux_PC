@@ -1,0 +1,75 @@
+[0.000000] (-) TimerEvent: {}
+[0.000290] (-) JobUnselected: {'identifier': 'my_cpp_pkg'}
+[0.000688] (my_robot_interfaces) JobQueued: {'identifier': 'my_robot_interfaces', 'dependencies': OrderedDict()}
+[0.000737] (my_robot_interfaces) JobStarted: {'identifier': 'my_robot_interfaces'}
+[0.021991] (my_robot_interfaces) JobProgress: {'identifier': 'my_robot_interfaces', 'progress': 'cmake'}
+[0.068610] (my_robot_interfaces) JobProgress: {'identifier': 'my_robot_interfaces', 'progress': 'build'}
+[0.069701] (my_robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pavan/MY_ROS_WS/build/my_robot_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/pavan/MY_ROS_WS/build/my_robot_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'pavan'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pavan/MY_ROS_WS/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pavan'), ('OLDPWD', '/home/pavan'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1615'), ('SYSTEMD_EXEC_PID', '1793'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '15505'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pavan/MY_ROS_WS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pavan'), ('JOURNAL_STREAM', '8:16723'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pavan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ros-workstation:@/tmp/.ICE-unix/1760,unix/ros-workstation:/tmp/.ICE-unix/1760'), ('INVOCATION_ID', '64fd21bdc50b42d5851326157b88a5b7'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XYREZ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pavan/MY_ROS_WS/install/my_cpp_pkg:/home/pavan/MY_ROS_WS/install/my_robot_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:caf89cff-93a2-4ccb-906c-9617b0e74ffd'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pavan/MY_ROS_WS/build/my_robot_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pavan/MY_ROS_WS/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pavan/MY_ROS_WS/install/my_cpp_pkg:/home/pavan/MY_ROS_WS/install/my_robot_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.099627] (-) TimerEvent: {}
+[0.200179] (-) TimerEvent: {}
+[0.301095] (-) TimerEvent: {}
+[0.384557] (my_robot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.401196] (-) TimerEvent: {}
+[0.501461] (-) TimerEvent: {}
+[0.551996] (my_robot_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.560099] (my_robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.571902] (my_robot_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.601694] (-) TimerEvent: {}
+[0.634564] (my_robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.701830] (-) TimerEvent: {}
+[0.802125] (-) TimerEvent: {}
+[0.902415] (-) TimerEvent: {}
+[1.002759] (-) TimerEvent: {}
+[1.103152] (-) TimerEvent: {}
+[1.204112] (-) TimerEvent: {}
+[1.304836] (-) TimerEvent: {}
+[1.330839] (my_robot_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):\n'}
+[1.331486] (my_robot_interfaces) StderrLine: {'line': b'  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name\n'}
+[1.331812] (my_robot_interfaces) StderrLine: {'line': b'  my_robot_interfaces --arguments-file\n'}
+[1.331945] (my_robot_interfaces) StderrLine: {'line': b'  /home/pavan/MY_ROS_WS/build/my_robot_interfaces/rosidl_adapter__arguments__my_robot_interfaces.json\n'}
+[1.332195] (my_robot_interfaces) StderrLine: {'line': b'  --output-dir\n'}
+[1.332418] (my_robot_interfaces) StderrLine: {'line': b'  /home/pavan/MY_ROS_WS/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces\n'}
+[1.332606] (my_robot_interfaces) StderrLine: {'line': b'  --output-file\n'}
+[1.332788] (my_robot_interfaces) StderrLine: {'line': b'  /home/pavan/MY_ROS_WS/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces.idls)\n'}
+[1.332958] (my_robot_interfaces) StderrLine: {'line': b'  returned error code 1:\n'}
+[1.333054] (my_robot_interfaces) StderrLine: {'line': b'\n'}
+[1.333146] (my_robot_interfaces) StderrLine: {'line': b"  Error processing 'int64 lednumber[3]' of\n"}
+[1.333248] (my_robot_interfaces) StderrLine: {'line': b"  'my_robot_interfaces/SetLed_Request': ''lednumber[3]' is an invalid field\n"}
+[1.333349] (my_robot_interfaces) StderrLine: {'line': b"  name.  It should have the pattern '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$''\n"}
+[1.333467] (my_robot_interfaces) StderrLine: {'line': b'\n'}
+[1.333570] (my_robot_interfaces) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[1.333671] (my_robot_interfaces) StderrLine: {'line': b'\n'}
+[1.333785] (my_robot_interfaces) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main\n'}
+[1.333888] (my_robot_interfaces) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[1.333989] (my_robot_interfaces) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 86, in _run_code\n'}
+[1.334090] (my_robot_interfaces) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[1.334190] (my_robot_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[1.334292] (my_robot_interfaces) StderrLine: {'line': b'      sys.exit(main())\n'}
+[1.334416] (my_robot_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[1.334518] (my_robot_interfaces) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[1.334613] (my_robot_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl\n'}
+[1.334678] (my_robot_interfaces) StderrLine: {'line': b'      return convert_srv_to_idl(\n'}
+[1.334737] (my_robot_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl\n'}
+[1.334797] (my_robot_interfaces) StderrLine: {'line': b'      srv = parse_service_string(package_name, input_file.stem, content)\n'}
+[1.334858] (my_robot_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 859, in parse_service_string\n'}
+[1.334919] (my_robot_interfaces) StderrLine: {'line': b'      request_message = parse_message_string(\n'}
+[1.334978] (my_robot_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 519, in parse_message_string\n'}
+[1.335036] (my_robot_interfaces) StderrLine: {'line': b'      fields.append(Field(\n'}
+[1.335096] (my_robot_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 354, in __init__\n'}
+[1.335155] (my_robot_interfaces) StderrLine: {'line': b'      raise NameError(\n'}
+[1.335212] (my_robot_interfaces) StderrLine: {'line': b'\n'}
+[1.335271] (my_robot_interfaces) StderrLine: {'line': b"  NameError: 'lednumber[3]' is an invalid field name.  It should have the\n"}
+[1.335330] (my_robot_interfaces) StderrLine: {'line': b"  pattern '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$'\n"}
+[1.335410] (my_robot_interfaces) StderrLine: {'line': b'\n'}
+[1.335472] (my_robot_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.335530] (my_robot_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[1.335590] (my_robot_interfaces) StderrLine: {'line': b'  CMakeLists.txt:15 (rosidl_generate_interfaces)\n'}
+[1.335649] (my_robot_interfaces) StderrLine: {'line': b'\n'}
+[1.335707] (my_robot_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[1.335766] (my_robot_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.335853] (my_robot_interfaces) StdoutLine: {'line': b'See also "/home/pavan/MY_ROS_WS/build/my_robot_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[1.339190] (my_robot_interfaces) StderrLine: {'line': b'gmake: *** [Makefile:1395: cmake_check_build_system] Error 1\n'}
+[1.341007] (my_robot_interfaces) CommandEnded: {'returncode': 2}
+[1.405533] (-) TimerEvent: {}
+[1.433994] (my_robot_interfaces) JobEnded: {'identifier': 'my_robot_interfaces', 'rc': 2}
+[1.444838] (-) EventReactorShutdown: {}

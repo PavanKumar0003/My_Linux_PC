@@ -1,0 +1,193 @@
+[0.252s] Invoking command in '/home/pavan/MY_ROS_WS/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pavan/MY_ROS_WS/build/my_robot_interfaces -- -j8 -l8
+[1.149s] [  2%] Built target my_robot_interfaces__cpp
+[1.263s] [35m[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_generator_c[0m
+[1.302s] [ 12%] Built target my_robot_interfaces__rosidl_generator_c
+[1.342s] [35m[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_introspection_cpp[0m
+[1.370s] [35m[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_cpp[0m
+[1.372s] [ 12%] Built target ament_cmake_python_copy_my_robot_interfaces
+[1.383s] [ 23%] Built target my_robot_interfaces__rosidl_typesupport_introspection_cpp
+[1.395s] [ 33%] Built target my_robot_interfaces__rosidl_typesupport_cpp
+[1.409s] [35m[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[1.427s] [35m[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_c[0m
+[1.440s] [35m[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_introspection_c[0m
+[1.501s] [35m[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_fastrtps_c[0m
+[1.504s] [ 43%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.505s] [ 53%] Built target my_robot_interfaces__rosidl_typesupport_c
+[1.510s] [ 64%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c
+[1.532s] [ 74%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c
+[1.561s] [ 74%] Built target my_robot_interfaces
+[1.626s] [ 76%] Built target my_robot_interfaces__py
+[1.712s] [35m[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_generator_py[0m
+[1.775s] [ 84%] Built target my_robot_interfaces__rosidl_generator_py
+[1.824s] [35m[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.831s] [35m[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_c__pyext[0m
+[1.842s] [ 89%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.857s] [ 94%] Built target my_robot_interfaces__rosidl_typesupport_c__pyext
+[1.864s] [35m[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[1.876s] [100%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.917s] running egg_info
+[1.918s] writing my_robot_interfaces.egg-info/PKG-INFO
+[1.918s] writing dependency_links to my_robot_interfaces.egg-info/dependency_links.txt
+[1.918s] writing top-level names to my_robot_interfaces.egg-info/top_level.txt
+[1.929s] reading manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'
+[1.930s] writing manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'
+[1.960s] [100%] Built target ament_cmake_python_build_my_robot_interfaces_egg
+[1.974s] Invoked command in '/home/pavan/MY_ROS_WS/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pavan/MY_ROS_WS/build/my_robot_interfaces -- -j8 -l8
+[2.013s] Invoking command in '/home/pavan/MY_ROS_WS/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pavan/MY_ROS_WS/build/my_robot_interfaces
+[2.022s] -- Install configuration: ""
+[2.023s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_robot_interfaces
+[2.023s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[2.023s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[2.023s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/hardware_status.h
+[2.023s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[2.023s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__functions.h
+[2.023s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__functions.c
+[2.023s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__struct.h
+[2.024s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.h
+[2.024s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.024s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv
+[2.035s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/custm_rectangle.h
+[2.035s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail
+[2.063s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/custm_rectangle__functions.h
+[2.063s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/custm_rectangle__type_support.h
+[2.063s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/custm_rectangle__functions.c
+[2.063s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/custm_rectangle__struct.h
+[2.063s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.sh
+[2.063s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.dsv
+[2.083s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so
+[2.083s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[2.083s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[2.083s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.083s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[2.084s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_c.h
+[2.084s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv
+[2.084s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail
+[2.084s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/custm_rectangle__rosidl_typesupport_fastrtps_c.h
+[2.084s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.085s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[2.085s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[2.085s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.085s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[2.085s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.c
+[2.085s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_c.h
+[2.085s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv
+[2.125s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail
+[2.125s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/custm_rectangle__rosidl_typesupport_introspection_c.h
+[2.126s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/custm_rectangle__type_support.c
+[2.198s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so
+[2.199s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so
+[2.200s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[2.240s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[2.247s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/hardware_status.hpp
+[2.247s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[2.249s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__struct.hpp
+[2.250s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__traits.hpp
+[2.251s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__builder.hpp
+[2.251s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.hpp
+[2.252s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.252s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv
+[2.253s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/custm_rectangle.hpp
+[2.254s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail
+[2.254s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/custm_rectangle__traits.hpp
+[2.255s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/custm_rectangle__struct.hpp
+[2.255s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/custm_rectangle__builder.hpp
+[2.256s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/custm_rectangle__type_support.hpp
+[2.256s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[2.260s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[2.270s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[2.272s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/dds_fastrtps
+[2.277s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_cpp.hpp
+[2.277s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.277s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv
+[2.288s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail
+[2.335s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/custm_rectangle__rosidl_typesupport_fastrtps_cpp.hpp
+[2.336s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/dds_fastrtps
+[2.356s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.357s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[2.358s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[2.358s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[2.359s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_cpp.hpp
+[2.360s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.cpp
+[2.361s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv
+[2.362s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail
+[2.362s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/custm_rectangle__type_support.cpp
+[2.363s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/custm_rectangle__rosidl_typesupport_introspection_cpp.hpp
+[2.363s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.365s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so
+[2.366s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.sh
+[2.366s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.dsv
+[2.367s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info
+[2.368s] -- Installing: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.368s] -- Installing: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[2.368s] -- Installing: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.369s] -- Installing: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[2.370s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces
+[2.371s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg
+[2.372s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/_hardware_status_s.c
+[2.372s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/__init__.py
+[2.373s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/_hardware_status.py
+[2.373s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/__init__.py
+[2.374s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.374s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[2.375s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.375s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.376s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.376s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.c
+[2.377s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv
+[2.377s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv/_custm_rectangle.py
+[2.377s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv/__init__.py
+[2.377s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv/_custm_rectangle_s.c
+[2.378s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/libmy_robot_interfaces__rosidl_generator_py.so
+[2.585s] Listing '/home/pavan/MY_ROS_WS/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces'...
+[2.585s] Listing '/home/pavan/MY_ROS_WS/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg'...
+[2.585s] Listing '/home/pavan/MY_ROS_WS/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv'...
+[2.619s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.621s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.623s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.625s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_py.so
+[2.626s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/share/my_robot_interfaces/msg/HardwareStatus.idl
+[2.627s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/share/my_robot_interfaces/srv/CustmRectangle.idl
+[2.628s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/share/my_robot_interfaces/msg/HardwareStatus.msg
+[2.628s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/share/my_robot_interfaces/srv/CustmRectangle.srv
+[2.629s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/share/my_robot_interfaces/srv/CustmRectangle_Request.msg
+[2.629s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/share/my_robot_interfaces/srv/CustmRectangle_Response.msg
+[2.630s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/share/ament_index/resource_index/package_run_dependencies/my_robot_interfaces
+[2.631s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/share/ament_index/resource_index/parent_prefix_path/my_robot_interfaces
+[2.631s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.sh
+[2.631s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.dsv
+[2.632s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.sh
+[2.632s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.dsv
+[2.632s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.bash
+[2.633s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.sh
+[2.633s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.zsh
+[2.634s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.dsv
+[2.634s] -- Installing: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv
+[2.667s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/share/ament_index/resource_index/packages/my_robot_interfaces
+[2.712s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport.cmake
+[2.712s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.725s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[2.726s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.735s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.736s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.737s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport.cmake
+[2.737s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.767s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cppExport.cmake
+[2.767s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.768s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.797s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.798s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.819s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport.cmake
+[2.820s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.821s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_pyExport.cmake
+[2.822s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[2.822s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.823s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.823s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.823s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.824s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.824s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.825s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.825s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig.cmake
+[2.825s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig-version.cmake
+[2.826s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_robot_interfaces/share/my_robot_interfaces/package.xml
+[2.835s] Invoked command in '/home/pavan/MY_ROS_WS/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pavan/MY_ROS_WS/build/my_robot_interfaces

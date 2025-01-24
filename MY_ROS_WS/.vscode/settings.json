@@ -1,0 +1,20 @@
+{
+    "cmake.sourceDirectory": "/home/pavan/MY_ROS_WS/src/my_cpp_pkg",
+    "python.autoComplete.extraPaths": [
+        "/home/pavan/MY_ROS_WS/install/my_py_pkg/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages",
+        "~/MY_ROS_WS/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/pavan/MY_ROS_WS/install/my_py_pkg/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "ros.distro": "humble",
+    "files.associations": {
+        "string": "cpp",
+        "functional": "cpp",
+        "chrono": "cpp"
+    }
+}

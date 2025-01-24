@@ -1,0 +1,2 @@
+Invoking command in '/home/pavan/MY_ROS_WS/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pavan/MY_ROS_WS/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/pavan/MY_ROS_WS/install/my_robot_interfaces
+Invoked command in '/home/pavan/MY_ROS_WS/build/my_robot_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pavan/MY_ROS_WS/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/pavan/MY_ROS_WS/install/my_robot_interfaces

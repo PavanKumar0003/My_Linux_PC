@@ -1,0 +1,13 @@
+[01m[K/home/pavan/MY_ROS_WS/src/my_cpp_pkg/src/Activity_0004/Battery_node.cpp:[m[K In constructor ‘[01m[Kcli_node::cli_node()[m[K’:
+[01m[K/home/pavan/MY_ROS_WS/src/my_cpp_pkg/src/Activity_0004/Battery_node.cpp:26:100:[m[K [01;31m[Kerror: [m[Klvalue required as unary ‘[01m[K&[m[K’ operand
+   26 | wall_timer(std::chrono::seconds(1), std::bind(&[01;31m[Kcli_node::callback()[m[K, this));
+      |                                                [01;31m[K~~~~~~~~~~~~~~~~~~^~[m[K
+
+[01m[K/home/pavan/MY_ROS_WS/src/my_cpp_pkg/src/Activity_0004/LED_Panel_node.cpp:[m[K In member function ‘[01m[Kvoid Server_node::callBackAddTwoInts(my_robot_interfaces::srv::SetLed_Request_<std::allocator<void> >::SharedPtr, my_robot_interfaces::srv::SetLed_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/pavan/MY_ROS_WS/src/my_cpp_pkg/src/Activity_0004/LED_Panel_node.cpp:15:89:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   15 |                             [01;35m[Kconst my_robot_interfaces::srv::SetLed::Response::SharedPtr response[m[K)
+      |                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/Battery_node.dir/build.make:76: CMakeFiles/Battery_node.dir/src/Activity_0004/Battery_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/Battery_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

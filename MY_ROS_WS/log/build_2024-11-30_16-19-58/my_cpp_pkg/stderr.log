@@ -1,0 +1,4 @@
+[01m[K/home/pavan/MY_ROS_WS/src/my_cpp_pkg/src/Activity_0001/Act_Sub.cpp:[m[K In member function ‘[01m[Kvoid Sub_node::Sub_Callback(example_interfaces::msg::Int64_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/pavan/MY_ROS_WS/src/my_cpp_pkg/src/Activity_0001/Act_Sub.cpp:18:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   18 |         void Sub_Callback([01;35m[Kexample_interfaces::msg::Int64::SharedPtr msg[m[K)
+      |                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K

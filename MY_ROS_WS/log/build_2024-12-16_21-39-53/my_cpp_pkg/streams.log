@@ -1,0 +1,28 @@
+[0.016s] Invoking command in '/home/pavan/MY_ROS_WS/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/home/pavan/MY_ROS_WS/install/my_robot_interfaces:/home/pavan/MY_ROS_WS/install/my_cpp_pkg:/opt/ros/humble /usr/bin/cmake --build /home/pavan/MY_ROS_WS/build/my_cpp_pkg -- -j8 -l8
+[0.097s] [35m[1mConsolidate compiler generated dependencies of target add_two_ints_client_o[0m
+[0.108s] [ 50%] Built target add_two_ints_server
+[0.113s] [ 75%] [32mBuilding CXX object CMakeFiles/add_two_ints_client_o.dir/src/Services/cli_oop.cpp.o[0m
+[4.302s] [100%] [32m[1mLinking CXX executable add_two_ints_client_o[0m
+[4.547s] [100%] Built target add_two_ints_client_o
+[4.558s] Invoked command in '/home/pavan/MY_ROS_WS/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/home/pavan/MY_ROS_WS/install/my_robot_interfaces:/home/pavan/MY_ROS_WS/install/my_cpp_pkg:/opt/ros/humble /usr/bin/cmake --build /home/pavan/MY_ROS_WS/build/my_cpp_pkg -- -j8 -l8
+[4.568s] Invoking command in '/home/pavan/MY_ROS_WS/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/home/pavan/MY_ROS_WS/install/my_robot_interfaces:/home/pavan/MY_ROS_WS/install/my_cpp_pkg:/opt/ros/humble /usr/bin/cmake --install /home/pavan/MY_ROS_WS/build/my_cpp_pkg
+[4.575s] -- Install configuration: ""
+[4.575s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server
+[4.575s] -- Installing: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_o
+[4.576s] -- Set runtime path of "/home/pavan/MY_ROS_WS/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_o" to ""
+[4.576s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[4.576s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[4.576s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[4.576s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[4.576s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[4.576s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[4.576s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[4.576s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[4.577s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[4.577s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[4.577s] -- Installing: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[4.577s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[4.577s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[4.577s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[4.577s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[4.579s] Invoked command in '/home/pavan/MY_ROS_WS/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/home/pavan/MY_ROS_WS/install/my_robot_interfaces:/home/pavan/MY_ROS_WS/install/my_cpp_pkg:/opt/ros/humble /usr/bin/cmake --install /home/pavan/MY_ROS_WS/build/my_cpp_pkg

@@ -1,0 +1,28 @@
+[0.012s] Invoking command in '/home/pavan/MY_ROS_WS/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pavan/MY_ROS_WS/build/my_cpp_pkg -- -j8 -l8
+[0.199s] [35m[1mConsolidate compiler generated dependencies of target Hwrdstat_sub[0m
+[0.210s] [ 50%] Built target Hwrdstat_pub
+[0.213s] [ 75%] [32mBuilding CXX object CMakeFiles/Hwrdstat_sub.dir/src/Hrdstat_sub.cpp.o[0m
+[9.268s] [100%] [32m[1mLinking CXX executable Hwrdstat_sub[0m
+[9.790s] [100%] Built target Hwrdstat_sub
+[9.800s] Invoked command in '/home/pavan/MY_ROS_WS/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pavan/MY_ROS_WS/build/my_cpp_pkg -- -j8 -l8
+[9.810s] Invoking command in '/home/pavan/MY_ROS_WS/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pavan/MY_ROS_WS/build/my_cpp_pkg
+[9.816s] -- Install configuration: ""
+[9.817s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/lib/my_cpp_pkg/Hwrdstat_pub
+[9.817s] -- Installing: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/lib/my_cpp_pkg/Hwrdstat_sub
+[9.821s] -- Set runtime path of "/home/pavan/MY_ROS_WS/install/my_cpp_pkg/lib/my_cpp_pkg/Hwrdstat_sub" to ""
+[9.821s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[9.821s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[9.821s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[9.821s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[9.821s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[9.821s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[9.821s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[9.821s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[9.822s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[9.822s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[9.822s] -- Installing: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[9.822s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[9.822s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[9.822s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[9.822s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[9.823s] Invoked command in '/home/pavan/MY_ROS_WS/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pavan/MY_ROS_WS/build/my_cpp_pkg

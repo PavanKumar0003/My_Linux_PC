@@ -1,0 +1,49 @@
+[0.013s] Invoking command in '/home/pavan/MY_ROS_WS/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pavan/MY_ROS_WS/build/my_cpp_pkg -- -j8 -l8
+[0.060s] [35m[1mConsolidate compiler generated dependencies of target Hwrdstat_sub[0m
+[0.074s] [ 50%] Built target Hwrdstat_pub
+[0.079s] [ 75%] [32mBuilding CXX object CMakeFiles/Hwrdstat_sub.dir/src/Hrdstat_sub.cpp.o[0m
+[2.511s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.511s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.511s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.511s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.511s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.511s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.512s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.512s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.512s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.512s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.512s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.512s]                  from [01m[K/home/pavan/MY_ROS_WS/src/my_cpp_pkg/src/Hrdstat_sub.cpp:1[m[K:
+[2.512s] [01m[K/home/pavan/MY_ROS_WS/src/my_cpp_pkg/src/Hrdstat_sub.cpp:[m[K In member function ‘[01m[Kvoid Sub_node::callBackRobotNews(my_robot_interfaces::msg::HardwareStatus_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.512s] [01m[K/home/pavan/MY_ROS_WS/src/my_cpp_pkg/src/Hrdstat_sub.cpp:19:44:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%c[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 7 has type ‘[01m[Kmy_robot_interfaces::msg::HardwareStatus_<std::allocator<void> >::_errmessage_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.512s]    19 |             RCLCPP_INFO(this->get_logger(),[01;35m[K"%ld %d %c"[m[K,msg->temparature,msg->motorstatus,msg->errmessage);
+[2.512s]       |                                            [01;35m[K^~~~~~~~~~~[m[K
+[2.513s] [01m[K/home/pavan/MY_ROS_WS/src/my_cpp_pkg/src/Hrdstat_sub.cpp:19:53:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.513s]    19 |             RCLCPP_INFO(this->get_logger(),"%ld %d [01;36m[K%c[m[K",msg->temparature,msg->motorstatus,msg->errmessage);
+[2.513s]       |                                                    [01;36m[K~^[m[K
+[2.513s]       |                                                     [01;36m[K|[m[K
+[2.513s]       |                                                     [01;36m[Kint[m[K
+[8.391s] [100%] [32m[1mLinking CXX executable Hwrdstat_sub[0m
+[8.844s] [100%] Built target Hwrdstat_sub
+[8.857s] Invoked command in '/home/pavan/MY_ROS_WS/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pavan/MY_ROS_WS/build/my_cpp_pkg -- -j8 -l8
+[8.868s] Invoking command in '/home/pavan/MY_ROS_WS/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pavan/MY_ROS_WS/build/my_cpp_pkg
+[8.876s] -- Install configuration: ""
+[8.876s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/lib/my_cpp_pkg/Hwrdstat_pub
+[8.876s] -- Installing: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/lib/my_cpp_pkg/Hwrdstat_sub
+[8.880s] -- Set runtime path of "/home/pavan/MY_ROS_WS/install/my_cpp_pkg/lib/my_cpp_pkg/Hwrdstat_sub" to ""
+[8.880s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[8.880s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[8.881s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[8.881s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[8.881s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[8.881s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[8.881s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[8.881s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[8.881s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[8.882s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[8.882s] -- Installing: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[8.882s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[8.882s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[8.882s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[8.882s] -- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[8.884s] Invoked command in '/home/pavan/MY_ROS_WS/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pavan/MY_ROS_WS/build/my_cpp_pkg

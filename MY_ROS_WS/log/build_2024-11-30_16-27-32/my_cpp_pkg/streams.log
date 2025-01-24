@@ -1,0 +1,15 @@
+[0.012s] Invoking command in '/home/pavan/MY_ROS_WS/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/home/pavan/MY_ROS_WS/install/my_robot_interfaces:/home/pavan/MY_ROS_WS/install/my_cpp_pkg:/opt/ros/humble /usr/bin/cmake --build /home/pavan/MY_ROS_WS/build/my_cpp_pkg -- -j8 -l8
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target number_counter[0m
+[0.060s] [ 25%] [32mBuilding CXX object CMakeFiles/number_publisher.dir/src/Activity_0001/Act_Pub.cpp.o[0m
+[0.063s] [ 50%] [32mBuilding CXX object CMakeFiles/number_counter.dir/src/Activity_0001/Act_Sub.cpp.o[0m
+[0.256s] [01m[K/home/pavan/MY_ROS_WS/src/my_cpp_pkg/src/Activity_0001/Act_Sub.cpp:4:9:[m[K [01;31m[Kfatal error: [m[Kmy_robot_interfaces/msg/hardware_status.hpp: No such file or directory
+[0.256s]     4 | #include[01;31m[K"my_robot_interfaces/msg/hardware_status.hpp"[m[K
+[0.256s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.256s] compilation terminated.
+[0.269s] gmake[2]: *** [CMakeFiles/number_counter.dir/build.make:76: CMakeFiles/number_counter.dir/src/Activity_0001/Act_Sub.cpp.o] Error 1
+[0.269s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/number_counter.dir/all] Error 2
+[0.270s] gmake[1]: *** Waiting for unfinished jobs....
+[4.208s] [ 75%] [32m[1mLinking CXX executable number_publisher[0m
+[4.400s] [ 75%] Built target number_publisher
+[4.401s] gmake: *** [Makefile:146: all] Error 2
+[4.403s] Invoked command in '/home/pavan/MY_ROS_WS/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=/home/pavan/MY_ROS_WS/install/my_robot_interfaces:/home/pavan/MY_ROS_WS/install/my_cpp_pkg:/opt/ros/humble /usr/bin/cmake --build /home/pavan/MY_ROS_WS/build/my_cpp_pkg -- -j8 -l8

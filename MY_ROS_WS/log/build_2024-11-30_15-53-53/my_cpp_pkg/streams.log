@@ -1,0 +1,18 @@
+[0.012s] Invoking command in '/home/pavan/MY_ROS_WS/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pavan/MY_ROS_WS/build/my_cpp_pkg -- -j8 -l8
+[0.053s] [ 50%] [32mBuilding CXX object CMakeFiles/number_counter.dir/src/Activity_0001/Act_Sub.cpp.o[0m
+[0.053s] [ 50%] [32mBuilding CXX object CMakeFiles/number_publisher.dir/src/Activity_0001/Act_Pub.cpp.o[0m
+[0.244s] [01m[K/home/pavan/MY_ROS_WS/src/my_cpp_pkg/src/Activity_0001/Act_Pub.cpp:14:10:[m[K [01;31m[Kfatal error: [m[Kmy_robot_interfaces/msg/hardware_status.hpp: No such file or directory
+[0.244s]    14 | #include [01;31m[K"my_robot_interfaces/msg/hardware_status.hpp"[m[K
+[0.245s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.245s] compilation terminated.
+[0.247s] gmake[2]: *** [CMakeFiles/number_publisher.dir/build.make:76: CMakeFiles/number_publisher.dir/src/Activity_0001/Act_Pub.cpp.o] Error 1
+[0.247s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/number_publisher.dir/all] Error 2
+[0.247s] gmake[1]: *** Waiting for unfinished jobs....
+[0.294s] [01m[K/home/pavan/MY_ROS_WS/src/my_cpp_pkg/src/Activity_0001/Act_Sub.cpp:4:9:[m[K [01;31m[Kfatal error: [m[Kmy_robot_interfaces/msg/hardware_status.hpp: No such file or directory
+[0.295s]     4 | #include[01;31m[K"my_robot_interfaces/msg/hardware_status.hpp"[m[K
+[0.295s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.295s] compilation terminated.
+[0.297s] gmake[2]: *** [CMakeFiles/number_counter.dir/build.make:76: CMakeFiles/number_counter.dir/src/Activity_0001/Act_Sub.cpp.o] Error 1
+[0.298s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/number_counter.dir/all] Error 2
+[0.298s] gmake: *** [Makefile:146: all] Error 2
+[0.300s] Invoked command in '/home/pavan/MY_ROS_WS/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pavan/MY_ROS_WS/build/my_cpp_pkg -- -j8 -l8

@@ -1,0 +1,47 @@
+[0.011s] Invoking command in '/home/pavan/MY_ROS_WS/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/home/pavan/MY_ROS_WS/install/my_robot_interfaces:/home/pavan/MY_ROS_WS/install/my_cpp_pkg:/home/pavan/MY_ROS_WS/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/pavan/MY_ROS_WS/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/pavan/MY_ROS_WS/install/my_cpp_pkg
+[0.060s] -- The C compiler identification is GNU 11.4.0
+[0.107s] -- The CXX compiler identification is GNU 11.4.0
+[0.113s] -- Detecting C compiler ABI info
+[0.168s] -- Detecting C compiler ABI info - done
+[0.176s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.176s] -- Detecting C compile features
+[0.176s] -- Detecting C compile features - done
+[0.179s] -- Detecting CXX compiler ABI info
+[0.242s] -- Detecting CXX compiler ABI info - done
+[0.250s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.250s] -- Detecting CXX compile features
+[0.251s] -- Detecting CXX compile features - done
+[0.252s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.395s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.475s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.521s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.521s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.521s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.529s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.543s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.582s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.584s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.819s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.862s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.907s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.913s] -- Looking for pthread.h
+[0.974s] -- Looking for pthread.h - found
+[0.974s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.036s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.037s] -- Found Threads: TRUE  
+[1.344s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[1.503s] -- Found my_robot_interfaces: 0.0.0 (/home/pavan/MY_ROS_WS/install/my_robot_interfaces/share/my_robot_interfaces/cmake)
+[1.573s] -- Configuring done
+[1.583s] -- Generating done
+[1.588s] -- Build files have been written to: /home/pavan/MY_ROS_WS/build/my_cpp_pkg
+[1.596s] Invoked command in '/home/pavan/MY_ROS_WS/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/home/pavan/MY_ROS_WS/install/my_robot_interfaces:/home/pavan/MY_ROS_WS/install/my_cpp_pkg:/home/pavan/MY_ROS_WS/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/pavan/MY_ROS_WS/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/pavan/MY_ROS_WS/install/my_cpp_pkg
+[1.597s] Invoking command in '/home/pavan/MY_ROS_WS/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/home/pavan/MY_ROS_WS/install/my_robot_interfaces:/home/pavan/MY_ROS_WS/install/my_cpp_pkg:/home/pavan/MY_ROS_WS/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/pavan/MY_ROS_WS/build/my_cpp_pkg -- -j8 -l8
+[1.637s] [ 25%] [32mBuilding CXX object CMakeFiles/number_publisher.dir/src/Activity_0001/Act_Pub.cpp.o[0m
+[2.953s] [01m[K/home/pavan/MY_ROS_WS/src/my_cpp_pkg/src/Activity_0001/Act_Pub.cpp:14:10:[m[K [01;31m[Kfatal error: [m[Kmy_robot_interfaces/msg/hardware_status.hpp: No such file or directory
+[2.953s]    14 | #include [01;31m[K"my_robot_interfaces/msg/hardware_status.hpp"[m[K
+[2.953s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.953s] compilation terminated.
+[2.956s] gmake[2]: *** [CMakeFiles/number_publisher.dir/build.make:76: CMakeFiles/number_publisher.dir/src/Activity_0001/Act_Pub.cpp.o] Error 1
+[2.957s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/number_publisher.dir/all] Error 2
+[2.957s] gmake: *** [Makefile:146: all] Error 2
+[2.959s] Invoked command in '/home/pavan/MY_ROS_WS/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=/home/pavan/MY_ROS_WS/install/my_robot_interfaces:/home/pavan/MY_ROS_WS/install/my_cpp_pkg:/home/pavan/MY_ROS_WS/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/pavan/MY_ROS_WS/build/my_cpp_pkg -- -j8 -l8

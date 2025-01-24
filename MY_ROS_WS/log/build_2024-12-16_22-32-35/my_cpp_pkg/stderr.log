@@ -1,0 +1,19 @@
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/pavan/MY_ROS_WS/src/my_cpp_pkg/src/Activity_0004/Battery_node.cpp:1[m[K:
+[01m[K/home/pavan/MY_ROS_WS/src/my_cpp_pkg/src/Activity_0004/Battery_node.cpp:[m[K In member function ‘[01m[Kvoid cli_node::callThread(int64_t, bool)[m[K’:
+[01m[K/home/pavan/MY_ROS_WS/src/my_cpp_pkg/src/Activity_0004/Battery_node.cpp:51:49:[m[K [01;31m[Kerror: [m[Kunable to find string literal operator ‘[01m[Koperator""request[m[K’ with ‘[01m[Kconst char [20][m[K’, ‘[01m[Klong unsigned int[m[K’ arguments
+   51 |                 RCLCPP_INFO(this->get_logger(), [01;31m[K"lednumber:%ld[%ld],"request[m[K->lednumber, request->state);
+      |                                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/Battery_node.dir/build.make:76: CMakeFiles/Battery_node.dir/src/Activity_0004/Battery_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/Battery_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

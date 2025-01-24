@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/add_two_ints_server.dir/src/Services/Two_int_Server.cpp.o -o add_two_ints_server 

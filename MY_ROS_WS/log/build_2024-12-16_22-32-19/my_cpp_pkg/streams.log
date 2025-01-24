@@ -1,0 +1,24 @@
+[0.013s] Invoking command in '/home/pavan/MY_ROS_WS/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/home/pavan/MY_ROS_WS/install/my_robot_interfaces:/home/pavan/MY_ROS_WS/install/my_cpp_pkg:/opt/ros/humble /usr/bin/cmake --build /home/pavan/MY_ROS_WS/build/my_cpp_pkg -- -j8 -l8
+[0.065s] [35m[1mConsolidate compiler generated dependencies of target Led_panel_node[0m
+[0.084s] [ 25%] [32mBuilding CXX object CMakeFiles/Battery_node.dir/src/Activity_0004/Battery_node.cpp.o[0m
+[0.087s] [ 75%] Built target Led_panel_node
+[2.881s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.881s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.881s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.881s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.881s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.881s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.881s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.881s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.881s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.881s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.881s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.881s]                  from [01m[K/home/pavan/MY_ROS_WS/src/my_cpp_pkg/src/Activity_0004/Battery_node.cpp:1[m[K:
+[2.881s] [01m[K/home/pavan/MY_ROS_WS/src/my_cpp_pkg/src/Activity_0004/Battery_node.cpp:[m[K In member function ‘[01m[Kvoid cli_node::callThread(int64_t, bool)[m[K’:
+[2.882s] [01m[K/home/pavan/MY_ROS_WS/src/my_cpp_pkg/src/Activity_0004/Battery_node.cpp:51:49:[m[K [01;31m[Kerror: [m[Kunable to find string literal operator ‘[01m[Koperator""request[m[K’ with ‘[01m[Kconst char [19][m[K’, ‘[01m[Klong unsigned int[m[K’ arguments
+[2.882s]    51 |                 RCLCPP_INFO(this->get_logger(), [01;31m[K"lednumber:%ld[%ld]"request[m[K->lednumber, request->state);
+[2.882s]       |                                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.563s] gmake[2]: *** [CMakeFiles/Battery_node.dir/build.make:76: CMakeFiles/Battery_node.dir/src/Activity_0004/Battery_node.cpp.o] Error 1
+[3.563s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/Battery_node.dir/all] Error 2
+[3.563s] gmake: *** [Makefile:146: all] Error 2
+[3.565s] Invoked command in '/home/pavan/MY_ROS_WS/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=/home/pavan/MY_ROS_WS/install/my_robot_interfaces:/home/pavan/MY_ROS_WS/install/my_cpp_pkg:/opt/ros/humble /usr/bin/cmake --build /home/pavan/MY_ROS_WS/build/my_cpp_pkg -- -j8 -l8

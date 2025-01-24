@@ -1,0 +1,172 @@
+[0.000000] (-) TimerEvent: {}
+[0.000241] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
+[0.000310] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict([('my_robot_interfaces', '/home/pavan/MY_ROS_WS/install/my_robot_interfaces')])}
+[0.000347] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.009835] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.011190] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[0.011275] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pavan/MY_ROS_WS/build/my_cpp_pkg', '--', '-j8', '-l8'], 'cwd': '/home/pavan/MY_ROS_WS/build/my_cpp_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'pavan'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pavan/MY_ROS_WS/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pavan'), ('OLDPWD', '/home/pavan'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1615'), ('SYSTEMD_EXEC_PID', '1793'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '15505'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pavan/MY_ROS_WS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pavan'), ('JOURNAL_STREAM', '8:16723'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pavan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ros-workstation:@/tmp/.ICE-unix/1760,unix/ros-workstation:/tmp/.ICE-unix/1760'), ('INVOCATION_ID', '64fd21bdc50b42d5851326157b88a5b7'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XYREZ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pavan/MY_ROS_WS/install/my_cpp_pkg:/home/pavan/MY_ROS_WS/install/my_robot_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:caf89cff-93a2-4ccb-906c-9617b0e74ffd'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pavan/MY_ROS_WS/build/my_cpp_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pavan/MY_ROS_WS/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pavan/MY_ROS_WS/install/my_robot_interfaces:/home/pavan/MY_ROS_WS/install/my_cpp_pkg:/opt/ros/humble')]), 'shell': False}
+[0.065143] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target Battery_node\x1b[0m\n'}
+[0.082375] (my_cpp_pkg) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/Led_panel_node.dir/src/Activity_0004/LED_Panel_node.cpp.o\x1b[0m\n'}
+[0.087001] (my_cpp_pkg) StdoutLine: {'line': b'[ 75%] Built target Battery_node\n'}
+[0.099406] (-) TimerEvent: {}
+[0.199671] (-) TimerEvent: {}
+[0.299985] (-) TimerEvent: {}
+[0.400289] (-) TimerEvent: {}
+[0.500598] (-) TimerEvent: {}
+[0.600960] (-) TimerEvent: {}
+[0.701323] (-) TimerEvent: {}
+[0.801729] (-) TimerEvent: {}
+[0.902029] (-) TimerEvent: {}
+[1.002421] (-) TimerEvent: {}
+[1.102711] (-) TimerEvent: {}
+[1.203022] (-) TimerEvent: {}
+[1.303321] (-) TimerEvent: {}
+[1.403567] (-) TimerEvent: {}
+[1.503937] (-) TimerEvent: {}
+[1.604196] (-) TimerEvent: {}
+[1.704441] (-) TimerEvent: {}
+[1.804815] (-) TimerEvent: {}
+[1.905151] (-) TimerEvent: {}
+[2.005541] (-) TimerEvent: {}
+[2.105867] (-) TimerEvent: {}
+[2.206184] (-) TimerEvent: {}
+[2.306517] (-) TimerEvent: {}
+[2.406870] (-) TimerEvent: {}
+[2.507162] (-) TimerEvent: {}
+[2.550052] (my_cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[2.550507] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.550655] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.551052] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.551117] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.551171] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.551225] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.551280] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.551333] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.551405] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.551460] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.551523] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pavan/MY_ROS_WS/src/my_cpp_pkg/src/Activity_0004/LED_Panel_node.cpp:1\x1b[m\x1b[K:\n'}
+[2.551576] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pavan/MY_ROS_WS/src/my_cpp_pkg/src/Activity_0004/LED_Panel_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Server_node::callBackAddTwoInts(my_robot_interfaces::srv::SetLed_Request_<std::allocator<void> >::SharedPtr, my_robot_interfaces::srv::SetLed_Response_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.551632] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pavan/MY_ROS_WS/src/my_cpp_pkg/src/Activity_0004/LED_Panel_node.cpp:29:41:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kmy_robot_interfaces::srv::SetLed_Request_<std::allocator<void> >::_lednumber_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.551691] (my_cpp_pkg) StderrLine: {'line': b'   29 |         RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"LED Number:%d state:[%d,%d,%d]"\x1b[m\x1b[K, \x1b[32m\x1b[Krequest->lednumber\x1b[m\x1b[K, LED[0],LED[1],LED[2]);\n'}
+[2.551745] (my_cpp_pkg) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.551800] (my_cpp_pkg) StderrLine: {'line': b'      |                                                                                    \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[2.551853] (my_cpp_pkg) StderrLine: {'line': b'      |                                                                                    \x1b[32m\x1b[Kmy_robot_interfaces::srv::SetLed_Request_<std::allocator<void> >::_lednumber_type {aka long int}\x1b[m\x1b[K\n'}
+[2.551908] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pavan/MY_ROS_WS/src/my_cpp_pkg/src/Activity_0004/LED_Panel_node.cpp:29:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[2.551963] (my_cpp_pkg) StderrLine: {'line': b'   29 |         RCLCPP_INFO(this->get_logger(), "LED Number:\x1b[01;36m\x1b[K%d\x1b[m\x1b[K state:[%d,%d,%d]", request->lednumber, LED[0],LED[1],LED[2]);\n'}
+[2.552015] (my_cpp_pkg) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[2.552068] (my_cpp_pkg) StderrLine: {'line': b'      |                                                      \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[2.552121] (my_cpp_pkg) StderrLine: {'line': b'      |                                                      \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[2.552175] (my_cpp_pkg) StderrLine: {'line': b'      |                                                     \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[2.552228] (my_cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[2.552282] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.552349] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.552411] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.552464] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.552518] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.552577] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.552630] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.552690] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.552744] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.552803] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.552860] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pavan/MY_ROS_WS/src/my_cpp_pkg/src/Activity_0004/LED_Panel_node.cpp:1\x1b[m\x1b[K:\n'}
+[2.552920] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pavan/MY_ROS_WS/src/my_cpp_pkg/src/Activity_0004/LED_Panel_node.cpp:29:41:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 6 has type \xe2\x80\x98\x1b[01m\x1b[Kint64_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.553025] (my_cpp_pkg) StderrLine: {'line': b'   29 |         RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"LED Number:%d state:[%d,%d,%d]"\x1b[m\x1b[K, request->lednumber, \x1b[32m\x1b[KLED[0]\x1b[m\x1b[K,LED[1],LED[2]);\n'}
+[2.553126] (my_cpp_pkg) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K                      \x1b[32m\x1b[K~~~~~~\x1b[m\x1b[K\n'}
+[2.553197] (my_cpp_pkg) StderrLine: {'line': b'      |                                                                                                    \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[2.553263] (my_cpp_pkg) StderrLine: {'line': b'      |                                                                                                    \x1b[32m\x1b[Kint64_t {aka long int}\x1b[m\x1b[K\n'}
+[2.553331] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pavan/MY_ROS_WS/src/my_cpp_pkg/src/Activity_0004/LED_Panel_node.cpp:29:64:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[2.553451] (my_cpp_pkg) StderrLine: {'line': b'   29 |         RCLCPP_INFO(this->get_logger(), "LED Number:%d state:[\x1b[01;36m\x1b[K%d\x1b[m\x1b[K,%d,%d]", request->lednumber, LED[0],LED[1],LED[2]);\n'}
+[2.553510] (my_cpp_pkg) StderrLine: {'line': b'      |                                                               \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[2.553565] (my_cpp_pkg) StderrLine: {'line': b'      |                                                                \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[2.553619] (my_cpp_pkg) StderrLine: {'line': b'      |                                                                \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[2.553671] (my_cpp_pkg) StderrLine: {'line': b'      |                                                               \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[2.553724] (my_cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[2.553778] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.553833] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.553886] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.553954] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.554009] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.554064] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.554117] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.554173] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.554231] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.554321] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.554425] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pavan/MY_ROS_WS/src/my_cpp_pkg/src/Activity_0004/LED_Panel_node.cpp:1\x1b[m\x1b[K:\n'}
+[2.554484] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pavan/MY_ROS_WS/src/my_cpp_pkg/src/Activity_0004/LED_Panel_node.cpp:29:41:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 7 has type \xe2\x80\x98\x1b[01m\x1b[Kint64_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.554558] (my_cpp_pkg) StderrLine: {'line': b'   29 |         RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"LED Number:%d state:[%d,%d,%d]"\x1b[m\x1b[K, request->lednumber, LED[0],\x1b[32m\x1b[KLED[1]\x1b[m\x1b[K,LED[2]);\n'}
+[2.554613] (my_cpp_pkg) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K                             \x1b[32m\x1b[K~~~~~~\x1b[m\x1b[K\n'}
+[2.554667] (my_cpp_pkg) StderrLine: {'line': b'      |                                                                                                           \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[2.554720] (my_cpp_pkg) StderrLine: {'line': b'      |                                                                                                           \x1b[32m\x1b[Kint64_t {aka long int}\x1b[m\x1b[K\n'}
+[2.554779] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pavan/MY_ROS_WS/src/my_cpp_pkg/src/Activity_0004/LED_Panel_node.cpp:29:67:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[2.554837] (my_cpp_pkg) StderrLine: {'line': b'   29 |         RCLCPP_INFO(this->get_logger(), "LED Number:%d state:[%d,\x1b[01;36m\x1b[K%d\x1b[m\x1b[K,%d]", request->lednumber, LED[0],LED[1],LED[2]);\n'}
+[2.554892] (my_cpp_pkg) StderrLine: {'line': b'      |                                                                  \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[2.554947] (my_cpp_pkg) StderrLine: {'line': b'      |                                                                   \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[2.554999] (my_cpp_pkg) StderrLine: {'line': b'      |                                                                   \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[2.555052] (my_cpp_pkg) StderrLine: {'line': b'      |                                                                  \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[2.555105] (my_cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[2.555159] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.555217] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.555270] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.555323] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.555389] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.555444] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.555497] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.555550] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.555602] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.555654] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.555708] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pavan/MY_ROS_WS/src/my_cpp_pkg/src/Activity_0004/LED_Panel_node.cpp:1\x1b[m\x1b[K:\n'}
+[2.555762] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pavan/MY_ROS_WS/src/my_cpp_pkg/src/Activity_0004/LED_Panel_node.cpp:29:41:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 8 has type \xe2\x80\x98\x1b[01m\x1b[Kint64_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.555827] (my_cpp_pkg) StderrLine: {'line': b'   29 |         RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"LED Number:%d state:[%d,%d,%d]"\x1b[m\x1b[K, request->lednumber, LED[0],LED[1],\x1b[32m\x1b[KLED[2]\x1b[m\x1b[K);\n'}
+[2.555883] (my_cpp_pkg) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K                                    \x1b[32m\x1b[K~~~~~~\x1b[m\x1b[K\n'}
+[2.555939] (my_cpp_pkg) StderrLine: {'line': b'      |                                                                                                                  \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[2.555994] (my_cpp_pkg) StderrLine: {'line': b'      |                                                                                                                  \x1b[32m\x1b[Kint64_t {aka long int}\x1b[m\x1b[K\n'}
+[2.556048] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pavan/MY_ROS_WS/src/my_cpp_pkg/src/Activity_0004/LED_Panel_node.cpp:29:70:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[2.556108] (my_cpp_pkg) StderrLine: {'line': b'   29 |         RCLCPP_INFO(this->get_logger(), "LED Number:%d state:[%d,%d,\x1b[01;36m\x1b[K%d\x1b[m\x1b[K]", request->lednumber, LED[0],LED[1],LED[2]);\n'}
+[2.556164] (my_cpp_pkg) StderrLine: {'line': b'      |                                                                     \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[2.556216] (my_cpp_pkg) StderrLine: {'line': b'      |                                                                      \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[2.556270] (my_cpp_pkg) StderrLine: {'line': b'      |                                                                      \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[2.556379] (my_cpp_pkg) StderrLine: {'line': b'      |                                                                     \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[2.556475] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pavan/MY_ROS_WS/src/my_cpp_pkg/src/Activity_0004/LED_Panel_node.cpp:15:89:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kresponse\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.556582] (my_cpp_pkg) StderrLine: {'line': b'   15 |                             \x1b[01;35m\x1b[Kconst my_robot_interfaces::srv::SetLed::Response::SharedPtr response\x1b[m\x1b[K)\n'}
+[2.556673] (my_cpp_pkg) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[2.607305] (-) TimerEvent: {}
+[2.707616] (-) TimerEvent: {}
+[2.807912] (-) TimerEvent: {}
+[2.908212] (-) TimerEvent: {}
+[3.008498] (-) TimerEvent: {}
+[3.108786] (-) TimerEvent: {}
+[3.209069] (-) TimerEvent: {}
+[3.309383] (-) TimerEvent: {}
+[3.409650] (-) TimerEvent: {}
+[3.509955] (-) TimerEvent: {}
+[3.610251] (-) TimerEvent: {}
+[3.710526] (-) TimerEvent: {}
+[3.741332] (my_cpp_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable Led_panel_node\x1b[0m\n'}
+[3.810620] (-) TimerEvent: {}
+[3.910927] (-) TimerEvent: {}
+[3.911222] (my_cpp_pkg) StdoutLine: {'line': b'[100%] Built target Led_panel_node\n'}
+[3.923453] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[3.924274] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'install'}
+[3.933122] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pavan/MY_ROS_WS/build/my_cpp_pkg'], 'cwd': '/home/pavan/MY_ROS_WS/build/my_cpp_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'pavan'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pavan/MY_ROS_WS/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pavan'), ('OLDPWD', '/home/pavan'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1615'), ('SYSTEMD_EXEC_PID', '1793'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '15505'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pavan/MY_ROS_WS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pavan'), ('JOURNAL_STREAM', '8:16723'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pavan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ros-workstation:@/tmp/.ICE-unix/1760,unix/ros-workstation:/tmp/.ICE-unix/1760'), ('INVOCATION_ID', '64fd21bdc50b42d5851326157b88a5b7'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XYREZ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pavan/MY_ROS_WS/install/my_cpp_pkg:/home/pavan/MY_ROS_WS/install/my_robot_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:caf89cff-93a2-4ccb-906c-9617b0e74ffd'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pavan/MY_ROS_WS/build/my_cpp_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pavan/MY_ROS_WS/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pavan/MY_ROS_WS/install/my_robot_interfaces:/home/pavan/MY_ROS_WS/install/my_cpp_pkg:/opt/ros/humble')]), 'shell': False}
+[3.941239] (my_cpp_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.941689] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/lib/my_cpp_pkg/Battery_node\n'}
+[3.941911] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/lib/my_cpp_pkg/Led_panel_node\n'}
+[3.942742] (my_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/pavan/MY_ROS_WS/install/my_cpp_pkg/lib/my_cpp_pkg/Led_panel_node" to ""\n'}
+[3.942924] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg\n'}
+[3.943097] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg\n'}
+[3.943235] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh\n'}
+[3.943360] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv\n'}
+[3.943545] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh\n'}
+[3.943650] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv\n'}
+[3.943754] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash\n'}
+[3.943856] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh\n'}
+[3.943968] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh\n'}
+[3.944076] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv\n'}
+[3.944176] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv\n'}
+[3.944280] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg\n'}
+[3.944398] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake\n'}
+[3.944505] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake\n'}
+[3.944614] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/package.xml\n'}
+[3.945350] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[3.965198] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 0}
+[3.965897] (-) EventReactorShutdown: {}

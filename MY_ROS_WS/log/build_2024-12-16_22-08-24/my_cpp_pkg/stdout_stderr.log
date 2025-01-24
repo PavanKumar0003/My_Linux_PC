@@ -1,0 +1,51 @@
+[35m[1mConsolidate compiler generated dependencies of target Led_panel_node[0m
+[ 50%] Built target Battery_node
+[ 75%] [32mBuilding CXX object CMakeFiles/Led_panel_node.dir/src/Activity_0004/LED_Panel_node.cpp.o[0m
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/pavan/MY_ROS_WS/src/my_cpp_pkg/src/Activity_0004/LED_Panel_node.cpp:1[m[K:
+[01m[K/home/pavan/MY_ROS_WS/src/my_cpp_pkg/src/Activity_0004/LED_Panel_node.cpp:[m[K In member function ‘[01m[Kvoid Server_node::callBackAddTwoInts(my_robot_interfaces::srv::SetLed_Request_<std::allocator<void> >::SharedPtr, my_robot_interfaces::srv::SetLed_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/pavan/MY_ROS_WS/src/my_cpp_pkg/src/Activity_0004/LED_Panel_node.cpp:29:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kmy_robot_interfaces::srv::SetLed_Request_<std::allocator<void> >::_lednumber_type[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   29 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"LED Number:%d state:[%ld,%ld,%ld]"[m[K, [32m[Krequest->lednumber[m[K, LED[0],LED[1],LED[2]);
+      |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                                       [32m[K|[m[K
+      |                                                                                       [32m[Kmy_robot_interfaces::srv::SetLed_Request_<std::allocator<void> >::_lednumber_type {aka long int}[m[K
+[01m[K/home/pavan/MY_ROS_WS/src/my_cpp_pkg/src/Activity_0004/LED_Panel_node.cpp:29:54:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   29 |         RCLCPP_INFO(this->get_logger(), "LED Number:[01;36m[K%d[m[K state:[%ld,%ld,%ld]", request->lednumber, LED[0],LED[1],LED[2]);
+      |                                                     [01;36m[K~^[m[K
+      |                                                      [01;36m[K|[m[K
+      |                                                      [01;36m[Kint[m[K
+      |                                                     [32m[K%ld[m[K
+[01m[K/home/pavan/MY_ROS_WS/src/my_cpp_pkg/src/Activity_0004/LED_Panel_node.cpp:15:89:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   15 |                             [01;35m[Kconst my_robot_interfaces::srv::SetLed::Response::SharedPtr response[m[K)
+      |                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable Led_panel_node[0m
+[100%] Built target Led_panel_node
+-- Install configuration: ""
+-- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/lib/my_cpp_pkg/Battery_node
+-- Installing: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/lib/my_cpp_pkg/Led_panel_node
+-- Set runtime path of "/home/pavan/MY_ROS_WS/install/my_cpp_pkg/lib/my_cpp_pkg/Led_panel_node" to ""
+-- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+-- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+-- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+-- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+-- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+-- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+-- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+-- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+-- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+-- Installing: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+-- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+-- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+-- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+-- Up-to-date: /home/pavan/MY_ROS_WS/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
